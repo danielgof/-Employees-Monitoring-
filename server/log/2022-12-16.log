@@ -1,0 +1,151 @@
+2022-12-16 14:06:49,826 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-16 14:06:49,826 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-16 14:06:49,828 INFO werkzeug MainThread :  * Restarting with stat
+2022-12-16 14:06:50,160 WARNING werkzeug MainThread :  * Debugger is active!
+2022-12-16 14:06:50,286 INFO werkzeug MainThread :  * Debugger PIN: 167-618-424
+2022-12-16 14:07:39,771 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 14:07:39] "GET /test HTTP/1.1" 200 -
+2022-12-16 14:12:07,624 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-16 14:12:07,624 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-16 14:12:07,625 INFO werkzeug MainThread :  * Restarting with stat
+2022-12-16 14:12:08,009 WARNING werkzeug MainThread :  * Debugger is active!
+2022-12-16 14:12:08,009 INFO werkzeug MainThread :  * Debugger PIN: 167-618-424
+2022-12-16 14:12:18,954 INFO app Thread-2 (process_request_thread) : All users were selected from database
+2022-12-16 14:12:18,955 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 14:12:18] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 14:12:44,906 INFO app Thread-3 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 1
+2022-12-16 14:12:44,907 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 14:12:44] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 14:12:44,910 INFO app Thread-4 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 2
+2022-12-16 14:12:44,910 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 14:12:44] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 14:12:48,328 INFO app Thread-5 (process_request_thread) : All users were selected from database
+2022-12-16 14:12:48,329 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 14:12:48] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 14:12:48,352 INFO app Thread-6 (process_request_thread) : All users were selected from database
+2022-12-16 14:12:48,353 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 14:12:48] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 14:13:24,871 INFO app Thread-7 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 3
+2022-12-16 14:13:24,872 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 14:13:24] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 14:13:24,876 INFO app Thread-8 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 4
+2022-12-16 14:13:24,877 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 14:13:24] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 14:13:30,552 INFO app Thread-9 (process_request_thread) : All users were selected from database
+2022-12-16 14:13:30,553 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 14:13:30] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 14:13:30,574 INFO app Thread-10 (process_request_thread) : All users were selected from database
+2022-12-16 14:13:30,575 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 14:13:30] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:38:03,436 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-16 15:38:03,436 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-16 15:38:03,437 INFO werkzeug MainThread :  * Restarting with stat
+2022-12-16 15:38:03,776 WARNING werkzeug MainThread :  * Debugger is active!
+2022-12-16 15:38:03,870 INFO werkzeug MainThread :  * Debugger PIN: 102-460-825
+2022-12-16 15:38:08,652 INFO app Thread-2 (process_request_thread) : All users were selected from database
+2022-12-16 15:38:08,653 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:38:08] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:38:08,669 INFO app Thread-3 (process_request_thread) : All users were selected from database
+2022-12-16 15:38:08,670 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:38:08] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:38:17,101 INFO app Thread-4 (process_request_thread) : All users were selected from database
+2022-12-16 15:38:17,101 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:38:17] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-16 15:38:17,104 INFO app Thread-5 (process_request_thread) : All users were selected from database
+2022-12-16 15:38:17,105 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:38:17] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-16 15:38:20,354 INFO app Thread-6 (process_request_thread) : All users were selected from database
+2022-12-16 15:38:20,354 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:38:20] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:38:20,371 INFO app Thread-7 (process_request_thread) : All users were selected from database
+2022-12-16 15:38:20,372 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:38:20] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:41:53,102 INFO app Thread-8 (process_request_thread) : All users were selected from database
+2022-12-16 15:41:53,102 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:41:53] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-16 15:41:53,105 INFO app Thread-9 (process_request_thread) : All users were selected from database
+2022-12-16 15:41:53,106 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:41:53] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-16 15:41:54,494 INFO app Thread-10 (process_request_thread) : All users were selected from database
+2022-12-16 15:41:54,494 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:41:54] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:41:54,511 INFO app Thread-11 (process_request_thread) : All users were selected from database
+2022-12-16 15:41:54,512 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:41:54] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:41:57,168 INFO app Thread-12 (process_request_thread) : All users were selected from database
+2022-12-16 15:41:57,168 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:41:57] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-16 15:41:57,172 INFO app Thread-13 (process_request_thread) : All users were selected from database
+2022-12-16 15:41:57,172 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:41:57] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-16 15:41:58,580 INFO app Thread-14 (process_request_thread) : All users were selected from database
+2022-12-16 15:41:58,581 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:41:58] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:41:58,597 INFO app Thread-15 (process_request_thread) : All users were selected from database
+2022-12-16 15:41:58,597 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:41:58] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:43:07,079 INFO app Thread-16 (process_request_thread) : All users were selected from database
+2022-12-16 15:43:07,080 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:43:07] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:43:07,099 INFO app Thread-17 (process_request_thread) : All users were selected from database
+2022-12-16 15:43:07,099 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:43:07] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:45:53,299 INFO app Thread-18 (process_request_thread) : All users were selected from database
+2022-12-16 15:45:53,299 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:45:53] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:45:53,315 INFO app Thread-19 (process_request_thread) : All users were selected from database
+2022-12-16 15:45:53,316 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:45:53] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:47:20,156 INFO app Thread-20 (process_request_thread) : All users were selected from database
+2022-12-16 15:47:20,156 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:47:20] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:47:20,185 INFO app Thread-21 (process_request_thread) : All users were selected from database
+2022-12-16 15:47:20,186 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:47:20] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:48:51,368 INFO app Thread-22 (process_request_thread) : All users were selected from database
+2022-12-16 15:48:51,368 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:48:51] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:48:51,389 INFO app Thread-23 (process_request_thread) : All users were selected from database
+2022-12-16 15:48:51,389 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:48:51] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:48:52,209 INFO app Thread-24 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 5
+2022-12-16 15:48:52,209 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:48:52] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 15:48:52,213 INFO app Thread-25 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 6
+2022-12-16 15:48:52,214 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:48:52] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 15:54:52,093 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-16 15:54:52,094 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-16 15:54:52,094 INFO werkzeug MainThread :  * Restarting with stat
+2022-12-16 15:54:52,424 WARNING werkzeug MainThread :  * Debugger is active!
+2022-12-16 15:54:52,424 INFO werkzeug MainThread :  * Debugger PIN: 102-460-825
+2022-12-16 15:55:00,328 INFO app Thread-2 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 7
+2022-12-16 15:55:00,329 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:55:00] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 15:55:00,332 INFO app Thread-3 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 8
+2022-12-16 15:55:00,333 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:55:00] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 15:55:01,819 INFO app Thread-4 (process_request_thread) : All users were selected from database
+2022-12-16 15:55:01,819 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:55:01] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:55:01,838 INFO app Thread-5 (process_request_thread) : All users were selected from database
+2022-12-16 15:55:01,838 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:55:01] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:55:03,946 INFO app Thread-6 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 9
+2022-12-16 15:55:03,946 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:55:03] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 15:55:03,948 INFO app Thread-7 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 10
+2022-12-16 15:55:03,949 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:55:03] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 15:55:14,346 INFO app Thread-8 (process_request_thread) : All users were selected from database
+2022-12-16 15:55:14,347 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:55:14] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-16 15:55:14,350 INFO app Thread-9 (process_request_thread) : All users were selected from database
+2022-12-16 15:55:14,351 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:55:14] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-16 15:55:17,345 INFO app Thread-10 (process_request_thread) : All users were selected from database
+2022-12-16 15:55:17,346 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:55:17] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:55:17,362 INFO app Thread-11 (process_request_thread) : All users were selected from database
+2022-12-16 15:55:17,363 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:55:17] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:55:18,627 INFO app Thread-12 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 11
+2022-12-16 15:55:18,628 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:55:18] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 15:55:18,631 INFO app Thread-13 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 12
+2022-12-16 15:55:18,631 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:55:18] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 15:59:02,212 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-16 15:59:02,214 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-16 15:59:02,215 INFO werkzeug MainThread :  * Restarting with stat
+2022-12-16 15:59:02,534 WARNING werkzeug MainThread :  * Debugger is active!
+2022-12-16 15:59:02,534 INFO werkzeug MainThread :  * Debugger PIN: 102-460-825
+2022-12-16 15:59:18,906 INFO app Thread-2 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 13
+2022-12-16 15:59:18,907 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:59:18] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 15:59:18,909 INFO app Thread-3 (process_request_thread) : Number of visitors of portal at 2022-12-16 is 14
+2022-12-16 15:59:18,910 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:59:18] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-16 15:59:52,696 INFO app Thread-4 (process_request_thread) : All users were selected from database
+2022-12-16 15:59:52,696 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:59:52] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 15:59:52,714 INFO app Thread-5 (process_request_thread) : All users were selected from database
+2022-12-16 15:59:52,714 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 15:59:52] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 16:01:13,575 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:01:13] "OPTIONS /api/v1/add_phone_to_user HTTP/1.1" 200 -
+2022-12-16 16:01:13,586 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:01:13] "POST /api/v1/add_phone_to_user HTTP/1.1" 200 -
+2022-12-16 16:01:18,686 INFO app Thread-8 (process_request_thread) : All users were selected from database
+2022-12-16 16:01:18,687 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:01:18] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 16:01:18,704 INFO app Thread-9 (process_request_thread) : All users were selected from database
+2022-12-16 16:01:18,705 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:01:18] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 16:01:32,247 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:01:32] "OPTIONS /api/v1/delete_phone HTTP/1.1" 200 -
+2022-12-16 16:01:32,257 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:01:32] "DELETE /api/v1/delete_phone HTTP/1.1" 200 -
+2022-12-16 16:01:36,224 INFO app Thread-12 (process_request_thread) : All users were selected from database
+2022-12-16 16:01:36,224 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:01:36] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 16:01:36,243 INFO app Thread-13 (process_request_thread) : All users were selected from database
+2022-12-16 16:01:36,243 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:01:36] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 16:02:11,528 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:02:11] "OPTIONS /api/v1/upd_position_for_person HTTP/1.1" 200 -
+2022-12-16 16:02:11,533 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:02:11] "PUT /api/v1/upd_position_for_person HTTP/1.1" 200 -
+2022-12-16 16:02:15,522 INFO app Thread-16 (process_request_thread) : All users were selected from database
+2022-12-16 16:02:15,522 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:02:15] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 16:02:15,541 INFO app Thread-17 (process_request_thread) : All users were selected from database
+2022-12-16 16:02:15,542 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:02:15] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-16 16:02:40,026 INFO app Thread-18 (process_request_thread) : All users were selected from database
+2022-12-16 16:02:40,026 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:02:40] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-16 16:02:40,030 INFO app Thread-19 (process_request_thread) : All users were selected from database
+2022-12-16 16:02:40,031 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [16/Dec/2022 16:02:40] "GET /api/v1/get_all_positions HTTP/1.1" 200 -

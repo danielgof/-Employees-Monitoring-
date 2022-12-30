@@ -1,0 +1,50 @@
+2022-12-28 00:37:05,777 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-28 00:37:05,777 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-28 00:37:05,778 INFO werkzeug MainThread :  * Restarting with stat
+2022-12-28 00:37:06,094 WARNING werkzeug MainThread :  * Debugger is active!
+2022-12-28 00:37:06,185 INFO werkzeug MainThread :  * Debugger PIN: 447-755-657
+2022-12-28 00:37:10,558 WARNING app Thread-2 (process_request_thread) : Exeption When initializing mapper mapped class Person->people, expression 'Phone' failed to locate a name ('Phone'). If this is a class name, consider adding this relationship() to the <class 'Models.people.Person'> class after both dependent classes have been defined. ocured
+2022-12-28 00:37:10,568 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Dec/2022 00:37:10] "[35m[1mGET /api/v1/get_all_people_data HTTP/1.1[0m" 500 -
+2022-12-28 00:37:34,554 WARNING app Thread-3 (process_request_thread) : Exeption One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'mapped class Person->people'. Original exception was: When initializing mapper mapped class Person->people, expression 'Phone' failed to locate a name ('Phone'). If this is a class name, consider adding this relationship() to the <class 'Models.people.Person'> class after both dependent classes have been defined. ocured
+2022-12-28 00:37:34,559 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Dec/2022 00:37:34] "[35m[1mGET /api/v1/get_all_people_data HTTP/1.1[0m" 500 -
+2022-12-28 00:37:46,373 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-28 00:37:46,373 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-28 00:37:46,374 INFO werkzeug MainThread :  * Restarting with stat
+2022-12-28 00:37:46,711 WARNING werkzeug MainThread :  * Debugger is active!
+2022-12-28 00:37:46,711 INFO werkzeug MainThread :  * Debugger PIN: 447-755-657
+2022-12-28 00:37:52,371 INFO app Thread-2 (process_request_thread) : All users were selected from database
+2022-12-28 00:37:52,373 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Dec/2022 00:37:52] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-28 00:38:31,765 INFO app Thread-3 (process_request_thread) : Number of visitors of portal at 2022-12-28 is 15
+2022-12-28 00:38:31,765 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Dec/2022 00:38:31] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-28 00:38:36,844 WARNING app Thread-4 (process_request_thread) : Exeption When initializing mapper mapped class Person->people, expression 'Phone' failed to locate a name ('Phone'). If this is a class name, consider adding this relationship() to the <class 'Models.people.Person'> class after both dependent classes have been defined. ocured
+2022-12-28 00:38:36,851 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [28/Dec/2022 00:38:36] "[35m[1mGET /api/v1/get_all_people_data HTTP/1.1[0m" 500 -
+2022-12-28 00:41:02,793 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-28 00:41:02,793 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-28 00:41:02,794 INFO werkzeug MainThread :  * Restarting with stat
+2022-12-28 00:41:03,110 WARNING werkzeug MainThread :  * Debugger is active!
+2022-12-28 00:41:03,111 INFO werkzeug MainThread :  * Debugger PIN: 447-755-657
+2022-12-28 00:41:05,932 WARNING app Thread-2 (process_request_thread) : Exeption When initializing mapper mapped class Person->people, expression 'Phone' failed to locate a name ('Phone'). If this is a class name, consider adding this relationship() to the <class 'db.Person'> class after both dependent classes have been defined. ocured
+2022-12-28 00:41:05,940 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Dec/2022 00:41:05] "[35m[1mGET /api/v1/get_all_people_data HTTP/1.1[0m" 500 -
+2022-12-28 00:41:07,407 WARNING app Thread-3 (process_request_thread) : Exeption One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'mapped class Person->people'. Original exception was: When initializing mapper mapped class Person->people, expression 'Phone' failed to locate a name ('Phone'). If this is a class name, consider adding this relationship() to the <class 'db.Person'> class after both dependent classes have been defined. ocured
+2022-12-28 00:41:07,410 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [28/Dec/2022 00:41:07] "[35m[1mGET /api/v1/get_all_people_data HTTP/1.1[0m" 500 -
+2022-12-28 00:42:17,849 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-28 00:42:17,849 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-28 00:42:17,850 INFO werkzeug MainThread :  * Restarting with stat
+2022-12-28 00:42:18,285 WARNING werkzeug MainThread :  * Debugger is active!
+2022-12-28 00:42:18,286 INFO werkzeug MainThread :  * Debugger PIN: 447-755-657
+2022-12-28 00:42:22,840 WARNING app Thread-2 (process_request_thread) : Exeption When initializing mapper mapped class Person->people, expression 'Phone' failed to locate a name ('Phone'). If this is a class name, consider adding this relationship() to the <class 'db.Person'> class after both dependent classes have been defined. ocured
+2022-12-28 00:42:22,848 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Dec/2022 00:42:22] "[35m[1mGET /api/v1/get_all_people_data HTTP/1.1[0m" 500 -
+2022-12-28 00:42:40,467 INFO werkzeug MainThread :  * Detected change in '/home/daniel/Documents/CS/Projects/ManagmentOfEmployees/server/db.py', reloading
+2022-12-28 00:42:40,523 INFO werkzeug MainThread :  * Restarting with stat
+2022-12-28 00:42:42,209 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-28 00:42:42,209 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-28 00:42:42,210 INFO werkzeug MainThread :  * Restarting with stat
+2022-12-28 00:42:42,608 WARNING werkzeug MainThread :  * Debugger is active!
+2022-12-28 00:42:42,609 INFO werkzeug MainThread :  * Debugger PIN: 447-755-657
+2022-12-28 00:42:44,956 INFO app Thread-2 (process_request_thread) : All users were selected from database
+2022-12-28 00:42:44,957 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [28/Dec/2022 00:42:44] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -

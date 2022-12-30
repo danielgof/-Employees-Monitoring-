@@ -1,0 +1,10 @@
+.department {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    /* border: 1px solid rgb(37, 108, 223);  */
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgb(37, 108, 223);
+    grid-template-columns: 1fr 1fr; 
+}

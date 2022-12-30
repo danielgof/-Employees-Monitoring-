@@ -1,0 +1,42 @@
+.main-page-info {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    border: 1px solid rgb(37, 108, 223)k; 
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgb(37, 108, 223);
+    grid-template-columns: 1fr 1fr; 
+}
+
+
+.img {
+    border-radius: 5%;
+    width: 550px; 
+    height: 300px;
+}
+
+.text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.home{
+    border-radius: 8px;
+    background-color: rgb(245, 245, 245);
+    width: 90%;
+}
+
+.contact {
+    border-radius: 8px;
+    background-color: rgb(245, 245, 245);
+    width: 90%;
+}
+
+.skills{
+    text-align: left;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color: rgb(245, 245, 245);
+    width: 90%;
+}

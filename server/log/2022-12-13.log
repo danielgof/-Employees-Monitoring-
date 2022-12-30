@@ -1,0 +1,296 @@
+2022-12-13 13:38:46,599 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-13 13:38:46,600 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-13 13:39:33,054 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/num_visits [GET]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 598, in connect
+    sock = self.retry.call_with_retry(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 599, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 664, in _connect
+    raise err
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 652, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 23, in num_visits
+    count = get_hit_counts()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 13, in get_hit_counts
+    raise exc
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 10, in get_hit_counts
+    return cache.incr('hits')
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\commands\core.py", line 1852, in incrby
+    return self.execute_command("INCRBY", name, amount)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\client.py", line 1255, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 1389, in get_connection
+    connection.connect()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 604, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+2022-12-13 13:39:33,332 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:39:33] "[35m[1mGET /api/v1/num_visits HTTP/1.1[0m" 500 -
+2022-12-13 13:39:48,298 ERROR app Thread-2 (process_request_thread) : Exception on /api/v1/num_visits [GET]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 598, in connect
+    sock = self.retry.call_with_retry(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 599, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 664, in _connect
+    raise err
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 652, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 23, in num_visits
+    count = get_hit_counts()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 13, in get_hit_counts
+    raise exc
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 10, in get_hit_counts
+    return cache.incr('hits')
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\commands\core.py", line 1852, in incrby
+    return self.execute_command("INCRBY", name, amount)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\client.py", line 1255, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 1389, in get_connection
+    connection.connect()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 604, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+2022-12-13 13:39:48,302 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:39:48] "[35m[1mGET /api/v1/num_visits HTTP/1.1[0m" 500 -
+2022-12-13 13:44:54,823 INFO app Thread-3 (process_request_thread) : All users were selected from database
+2022-12-13 13:44:54,824 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:44:54] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 13:44:54,911 INFO app Thread-4 (process_request_thread) : All users were selected from database
+2022-12-13 13:44:54,913 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:44:54] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 13:45:24,449 INFO app Thread-5 (process_request_thread) : All users were selected from database
+2022-12-13 13:45:24,450 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:45:24] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 13:45:24,485 INFO app Thread-6 (process_request_thread) : All users were selected from database
+2022-12-13 13:45:24,486 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:45:24] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 13:46:07,170 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:46:07] "OPTIONS /api/v1/add_phone_to_user HTTP/1.1" 200 -
+2022-12-13 13:46:07,480 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:46:07] "POST /api/v1/add_phone_to_user HTTP/1.1" 200 -
+2022-12-13 13:46:16,655 INFO app Thread-10 (process_request_thread) : All users were selected from database
+2022-12-13 13:46:16,656 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:46:16] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 13:46:16,700 INFO app Thread-11 (process_request_thread) : All users were selected from database
+2022-12-13 13:46:16,702 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:46:16] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 13:46:22,914 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:46:22] "OPTIONS /api/v1/delete_phone HTTP/1.1" 200 -
+2022-12-13 13:46:23,240 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:46:23] "DELETE /api/v1/delete_phone HTTP/1.1" 200 -
+2022-12-13 13:48:06,135 INFO app Thread-14 (process_request_thread) : All users were selected from database
+2022-12-13 13:48:06,136 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:48:06] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 13:48:06,188 INFO app Thread-15 (process_request_thread) : All users were selected from database
+2022-12-13 13:48:06,189 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:48:06] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 13:48:35,786 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:48:35] "OPTIONS /api/v1/add_phone_to_user HTTP/1.1" 200 -
+2022-12-13 13:48:36,078 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 13:48:36] "POST /api/v1/add_phone_to_user HTTP/1.1" 200 -
+2022-12-13 14:02:42,452 INFO app Thread-20 (process_request_thread) : All users were selected from database
+2022-12-13 14:02:42,453 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:02:42] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 14:02:42,532 INFO app Thread-21 (process_request_thread) : All users were selected from database
+2022-12-13 14:02:42,533 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:02:42] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 14:02:54,051 ERROR app Thread-19 (process_request_thread) : Exception on /api/v1/num_visits [GET]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 598, in connect
+    sock = self.retry.call_with_retry(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 599, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 664, in _connect
+    raise err
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 652, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 23, in num_visits
+    count = get_hit_counts()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 13, in get_hit_counts
+    raise exc
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 10, in get_hit_counts
+    return cache.incr('hits')
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\commands\core.py", line 1852, in incrby
+    return self.execute_command("INCRBY", name, amount)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\client.py", line 1255, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 1389, in get_connection
+    connection.connect()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 604, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+2022-12-13 14:02:54,055 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:02:54] "[35m[1mGET /api/v1/num_visits HTTP/1.1[0m" 500 -
+2022-12-13 14:03:43,992 INFO app Thread-22 (process_request_thread) : All users were selected from database
+2022-12-13 14:03:43,992 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:03:43] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-13 14:03:44,251 INFO app Thread-23 (process_request_thread) : All users were selected from database
+2022-12-13 14:03:44,251 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:03:44] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-13 14:03:58,620 INFO app Thread-25 (process_request_thread) : All users were selected from database
+2022-12-13 14:03:58,621 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:03:58] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 14:03:58,701 INFO app Thread-26 (process_request_thread) : All users were selected from database
+2022-12-13 14:03:58,704 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:03:58] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 14:13:28,519 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-13 14:13:28,519 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-13 14:29:37,778 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-13 14:29:37,778 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-13 14:30:06,295 INFO app Thread-2 (process_request_thread) : All users were selected from database
+2022-12-13 14:30:06,296 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:30:06] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 14:30:06,334 INFO app Thread-3 (process_request_thread) : All users were selected from database
+2022-12-13 14:30:06,335 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:30:06] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-13 14:30:17,500 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/num_visits [GET]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 598, in connect
+    sock = self.retry.call_with_retry(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 599, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 664, in _connect
+    raise err
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 652, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 23, in num_visits
+    count = get_hit_counts()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 13, in get_hit_counts
+    raise exc
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 10, in get_hit_counts
+    return cache.incr('hits')
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\commands\core.py", line 1852, in incrby
+    return self.execute_command("INCRBY", name, amount)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\client.py", line 1255, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 1389, in get_connection
+    connection.connect()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\redis\connection.py", line 604, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+2022-12-13 14:30:17,516 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:30:17] "[35m[1mGET /api/v1/num_visits HTTP/1.1[0m" 500 -
+2022-12-13 14:30:35,408 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:30:35] "OPTIONS /api/v1/upd_phone HTTP/1.1" 200 -
+2022-12-13 14:30:35,648 ERROR app Thread-5 (process_request_thread) : Exception on /api/v1/upd_phone [PUT]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 170, in upd_phone
+    .filter(Phone.phone == data["phonenumber_old"])\
+KeyError: 'phonenumber_old'
+2022-12-13 14:30:35,648 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:30:35] "[35m[1mPUT /api/v1/upd_phone HTTP/1.1[0m" 500 -
+2022-12-13 14:31:10,816 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:31:10] "OPTIONS /api/v1/upd_phone HTTP/1.1" 200 -
+2022-12-13 14:31:11,133 ERROR app Thread-7 (process_request_thread) : Exception on /api/v1/upd_phone [PUT]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 170, in upd_phone
+    .filter(Phone.phone == data["phonenumber_old"])\
+KeyError: 'phonenumber_old'
+2022-12-13 14:31:11,134 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:31:11] "[35m[1mPUT /api/v1/upd_phone HTTP/1.1[0m" 500 -
+2022-12-13 14:31:18,685 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:31:18] "OPTIONS /api/v1/upd_phone HTTP/1.1" 200 -
+2022-12-13 14:31:19,012 ERROR app Thread-9 (process_request_thread) : Exception on /api/v1/upd_phone [PUT]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 170, in upd_phone
+    .filter(Phone.phone == data["phonenumber_old"])\
+KeyError: 'phonenumber_old'
+2022-12-13 14:31:19,013 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:31:19] "[35m[1mPUT /api/v1/upd_phone HTTP/1.1[0m" 500 -
+2022-12-13 14:31:30,002 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:31:30] "PUT /api/v1/upd_phone HTTP/1.1" 200 -
+2022-12-13 14:32:23,277 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:32:23] "OPTIONS /api/v1/upd_phone HTTP/1.1" 200 -
+2022-12-13 14:32:23,535 ERROR app Thread-13 (process_request_thread) : Exception on /api/v1/upd_phone [PUT]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 170, in upd_phone
+    .filter(Phone.phone == data["phonenumber_old"])\
+KeyError: 'phonenumber_old'
+2022-12-13 14:32:23,537 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:32:23] "[35m[1mPUT /api/v1/upd_phone HTTP/1.1[0m" 500 -
+2022-12-13 14:33:04,836 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:33:04] "PUT /api/v1/upd_phone HTTP/1.1" 200 -
+2022-12-13 14:33:40,172 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:33:40] "OPTIONS /api/v1/upd_phone HTTP/1.1" 200 -
+2022-12-13 14:33:40,439 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:33:40] "PUT /api/v1/upd_phone HTTP/1.1" 200 -
+2022-12-13 14:33:50,766 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:33:50] "OPTIONS /api/v1/delete_phone HTTP/1.1" 200 -
+2022-12-13 14:33:51,085 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [13/Dec/2022 14:33:51] "DELETE /api/v1/delete_phone HTTP/1.1" 200 -
+2022-12-13 23:44:45,757 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-13 23:44:45,758 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m

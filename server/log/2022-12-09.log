@@ -1,0 +1,997 @@
+2022-12-09 01:04:49,771 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 01:04:49,772 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 01:05:43,870 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 01:05:43,871 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 13:10:37,462 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 13:10:37,463 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 13:10:46,498 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:10:46] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:10:49,315 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:10:49] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:10:50,567 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:10:50] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:20:56,420 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 13:20:56,421 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 13:21:31,484 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 13:21:31,484 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 13:24:06,519 INFO app Thread-1 (process_request_thread) : All users were selected from database
+2022-12-09 13:24:06,521 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:24:06] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 13:24:06,550 INFO app Thread-2 (process_request_thread) : All users were selected from database
+2022-12-09 13:24:06,550 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:24:06] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 13:24:59,387 INFO app Thread-3 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 4
+2022-12-09 13:24:59,387 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:24:59] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:24:59,396 INFO app Thread-4 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 5
+2022-12-09 13:24:59,397 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:24:59] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:25:10,896 INFO app Thread-5 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 6
+2022-12-09 13:25:10,896 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:25:10] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:25:10,904 INFO app Thread-6 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 7
+2022-12-09 13:25:10,905 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:25:10] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:25:44,391 INFO app Thread-7 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 8
+2022-12-09 13:25:44,391 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:25:44] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:27:40,386 INFO app Thread-8 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 9
+2022-12-09 13:27:40,386 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:27:40] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:27:42,285 INFO app Thread-9 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 10
+2022-12-09 13:27:42,286 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:27:42] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:27:56,394 INFO app Thread-10 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 11
+2022-12-09 13:27:56,398 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:27:56] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:27:59,394 INFO app Thread-11 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 12
+2022-12-09 13:27:59,394 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:27:59] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:28:10,391 INFO app Thread-12 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 13
+2022-12-09 13:28:10,391 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:28:10] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:28:16,145 INFO app Thread-13 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 14
+2022-12-09 13:28:16,145 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:28:16] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:28:25,390 INFO app Thread-14 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 15
+2022-12-09 13:28:25,392 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:28:25] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:28:38,387 INFO app Thread-15 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 16
+2022-12-09 13:28:38,388 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:28:38] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:28:39,400 INFO app Thread-16 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 17
+2022-12-09 13:28:39,400 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:28:39] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:28:43,387 INFO app Thread-17 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 18
+2022-12-09 13:28:43,387 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:28:43] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:28:52,443 INFO app Thread-18 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 19
+2022-12-09 13:28:52,445 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:28:52] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:28:52,455 INFO app Thread-19 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 20
+2022-12-09 13:28:52,458 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:28:52] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:28:58,071 INFO app Thread-20 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 21
+2022-12-09 13:28:58,072 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:28:58] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:28:58,078 INFO app Thread-21 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 22
+2022-12-09 13:28:58,079 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:28:58] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:01,602 INFO app Thread-22 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 23
+2022-12-09 13:29:01,602 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:01] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:01,616 INFO app Thread-23 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 24
+2022-12-09 13:29:01,617 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:01] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:11,222 INFO app Thread-24 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 25
+2022-12-09 13:29:11,222 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:11] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:14,125 INFO app Thread-25 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 26
+2022-12-09 13:29:14,126 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:14] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:14,129 INFO app Thread-26 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 27
+2022-12-09 13:29:14,130 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:14] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:15,474 INFO app Thread-27 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 28
+2022-12-09 13:29:15,475 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:15] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:15,481 INFO app Thread-28 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 29
+2022-12-09 13:29:15,482 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:15] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:29,401 INFO app Thread-29 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 30
+2022-12-09 13:29:29,402 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:29] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:32,391 INFO app Thread-30 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 31
+2022-12-09 13:29:32,393 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:32] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:35,398 INFO app Thread-31 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 32
+2022-12-09 13:29:35,400 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:35] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:37,953 INFO app Thread-32 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 33
+2022-12-09 13:29:37,954 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:37] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:37,957 INFO app Thread-33 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 34
+2022-12-09 13:29:37,958 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:37] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:40,924 INFO app Thread-34 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 35
+2022-12-09 13:29:40,925 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:40] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:40,933 INFO app Thread-35 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 36
+2022-12-09 13:29:40,934 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:40] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:48,407 INFO app Thread-36 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 37
+2022-12-09 13:29:48,408 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:48] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:52,160 INFO app Thread-37 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 38
+2022-12-09 13:29:52,162 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:52] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:29:52,165 INFO app Thread-38 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 39
+2022-12-09 13:29:52,165 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:29:52] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:30:09,390 INFO app Thread-39 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 40
+2022-12-09 13:30:09,391 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:30:09] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:30:16,968 INFO app Thread-40 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 41
+2022-12-09 13:30:16,968 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:30:16] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:30:16,972 INFO app Thread-41 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 42
+2022-12-09 13:30:16,973 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:30:16] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:30:23,998 INFO app Thread-42 (process_request_thread) : All users were selected from database
+2022-12-09 13:30:23,998 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:30:23] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 13:30:24,017 INFO app Thread-43 (process_request_thread) : All users were selected from database
+2022-12-09 13:30:24,017 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:30:24] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 13:30:26,115 INFO app Thread-44 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 43
+2022-12-09 13:30:26,116 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:30:26] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:30:26,144 INFO app Thread-45 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 44
+2022-12-09 13:30:26,145 INFO werkzeug Thread-45 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:30:26] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:30:46,397 INFO app Thread-46 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 45
+2022-12-09 13:30:46,400 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:30:46] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:38:08,395 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 13:38:08,395 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 13:38:20,469 INFO app Thread-1 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 46
+2022-12-09 13:38:20,469 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:38:20] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:38:20,469 INFO app Thread-2 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 47
+2022-12-09 13:38:20,477 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:38:20] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:38:44,461 INFO app Thread-3 (process_request_thread) : All users were selected from database
+2022-12-09 13:38:44,461 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:38:44] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 13:38:44,469 INFO app Thread-4 (process_request_thread) : All users were selected from database
+2022-12-09 13:38:44,469 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:38:44] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 13:38:49,187 INFO app Thread-5 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 48
+2022-12-09 13:38:49,187 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:38:49] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:38:49,187 INFO app Thread-6 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 49
+2022-12-09 13:38:49,195 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:38:49] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:38:58,347 INFO app Thread-7 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 50
+2022-12-09 13:38:58,347 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:38:58] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:38:59,344 INFO app Thread-8 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 51
+2022-12-09 13:38:59,344 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:38:59] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:39:08,789 INFO app Thread-9 (process_request_thread) : All users were selected from database
+2022-12-09 13:39:08,789 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:39:08] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 13:39:08,805 INFO app Thread-10 (process_request_thread) : All users were selected from database
+2022-12-09 13:39:08,805 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:39:08] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 13:39:50,325 INFO app Thread-11 (process_request_thread) : All users were selected from database
+2022-12-09 13:39:50,327 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:39:50] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 13:39:50,353 INFO app Thread-12 (process_request_thread) : All users were selected from database
+2022-12-09 13:39:50,354 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:39:50] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 13:48:38,824 INFO app Thread-13 (process_request_thread) : All users were selected from database
+2022-12-09 13:48:38,825 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:48:38] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 13:48:38,848 INFO app Thread-14 (process_request_thread) : All users were selected from database
+2022-12-09 13:48:38,849 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:48:38] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 13:55:22,620 INFO app Thread-15 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 52
+2022-12-09 13:55:22,620 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:55:22] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 13:55:22,624 INFO app Thread-16 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 53
+2022-12-09 13:55:22,624 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 13:55:22] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 14:12:42,374 INFO app Thread-17 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 54
+2022-12-09 14:12:42,375 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 14:12:42] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 14:12:42,382 INFO app Thread-18 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 55
+2022-12-09 14:12:42,384 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 14:12:42] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 14:13:35,356 INFO app Thread-19 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 56
+2022-12-09 14:13:35,357 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 14:13:35] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 14:18:41,362 INFO app Thread-20 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 57
+2022-12-09 14:18:41,362 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 14:18:41] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 14:18:48,402 INFO app Thread-21 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 58
+2022-12-09 14:18:48,404 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 14:18:48] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 14:18:48,413 INFO app Thread-22 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 59
+2022-12-09 14:18:48,413 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 14:18:48] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 14:20:30,832 INFO app Thread-23 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 60
+2022-12-09 14:20:30,833 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 14:20:30] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 14:20:30,836 INFO app Thread-24 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 61
+2022-12-09 14:20:30,837 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 14:20:30] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 14:20:39,370 INFO app Thread-25 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 62
+2022-12-09 14:20:39,372 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 14:20:39] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 15:03:17,408 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 15:03:17,408 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 15:03:53,149 INFO app Thread-1 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 54
+2022-12-09 15:03:53,150 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 15:03:53] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 15:03:53,154 INFO app Thread-2 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 55
+2022-12-09 15:03:53,154 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 15:03:53] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 15:04:11,457 INFO app Thread-3 (process_request_thread) : All users were selected from database
+2022-12-09 15:04:11,457 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 15:04:11] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 15:04:11,463 INFO app Thread-4 (process_request_thread) : All users were selected from database
+2022-12-09 15:04:11,465 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 15:04:11] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 15:04:57,180 INFO app Thread-5 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 56
+2022-12-09 15:04:57,181 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 15:04:57] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 15:04:57,183 INFO app Thread-6 (process_request_thread) : Number of visitors of portal at 2022-12-09 is 57
+2022-12-09 15:04:57,184 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 15:04:57] "GET /api/v1/num_visits HTTP/1.1" 200 -
+2022-12-09 15:05:42,976 INFO app Thread-7 (process_request_thread) : All users were selected from database
+2022-12-09 15:05:42,976 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 15:05:42] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 15:05:42,983 INFO app Thread-8 (process_request_thread) : All users were selected from database
+2022-12-09 15:05:42,983 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 15:05:42] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 22:35:05,865 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 22:35:05,866 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 22:37:53,766 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 22:37:53,766 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 22:37:56,894 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:37:56] "POST /api/v1/add_person HTTP/1.1" 200 -
+2022-12-09 22:42:36,318 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 22:42:36,319 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 22:42:40,247 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:42:40] "POST /api/v1/add_person HTTP/1.1" 200 -
+2022-12-09 22:45:58,634 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 22:45:58,635 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 22:46:02,571 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/add_person [POST]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 74, in add_person
+    new_person.phones = [new_phone]
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 460, in __set__
+    self.impl.set(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 1588, in set
+    old = self.get(state, dict_, passive=PASSIVE_ONLY_PERSISTENT)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 942, in get
+    value = self._fire_loader_callables(state, key, passive)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 978, in _fire_loader_callables
+    return self.callable_(state, passive)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\strategies.py", line 863, in _load_for_state
+    raise orm_exc.DetachedInstanceError(
+sqlalchemy.orm.exc.DetachedInstanceError: Parent instance <Person at 0x27117a13b80> is not bound to a Session; lazy load operation of attribute 'phones' cannot proceed (Background on this error at: https://sqlalche.me/e/14/bhk3)
+2022-12-09 22:46:02,609 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:46:02] "[35m[1mPOST /api/v1/add_person HTTP/1.1[0m" 500 -
+2022-12-09 22:46:07,287 ERROR app Thread-2 (process_request_thread) : Exception on /api/v1/add_person [POST]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UniqueViolation: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "ix_phone_phone"
+DETAIL:  Ключ "(phone)=(+90**********)" уже существует.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 72, in add_person
+    session.commit()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 829, in commit
+    self._prepare_impl()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 3444, in flush
+    self._flush(objects)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 3583, in _flush
+    with util.safe_reraise():
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\util\compat.py", line 210, in raise_
+    raise exception
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 3544, in _flush
+    flush_context.execute()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 1238, in _emit_insert_statements
+    result = connection._execute_20(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\util\compat.py", line 210, in raise_
+    raise exception
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "ix_phone_phone"
+DETAIL:  Ключ "(phone)=(+90**********)" уже существует.
+
+[SQL: INSERT INTO phone (phone) VALUES (%(phone)s) RETURNING phone.id]
+[parameters: {'phone': '+90**********'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-12-09 22:46:07,369 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:46:07] "[35m[1mPOST /api/v1/add_person HTTP/1.1[0m" 500 -
+2022-12-09 22:46:08,691 ERROR app Thread-3 (process_request_thread) : Exception on /api/v1/add_person [POST]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 72, in add_person
+    session.commit()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 827, in commit
+    self._assert_active(prepared_ok=True)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 601, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "ix_phone_phone"
+DETAIL:  Ключ "(phone)=(+90**********)" уже существует.
+
+[SQL: INSERT INTO phone (phone) VALUES (%(phone)s) RETURNING phone.id]
+[parameters: {'phone': '+90**********'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+2022-12-09 22:46:08,692 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:46:08] "[35m[1mPOST /api/v1/add_person HTTP/1.1[0m" 500 -
+2022-12-09 22:46:10,181 ERROR app Thread-4 (process_request_thread) : Exception on /api/v1/add_person [POST]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 72, in add_person
+    session.commit()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 827, in commit
+    self._assert_active(prepared_ok=True)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 601, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "ix_phone_phone"
+DETAIL:  Ключ "(phone)=(+90**********)" уже существует.
+
+[SQL: INSERT INTO phone (phone) VALUES (%(phone)s) RETURNING phone.id]
+[parameters: {'phone': '+90**********'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+2022-12-09 22:46:10,181 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:46:10] "[35m[1mPOST /api/v1/add_person HTTP/1.1[0m" 500 -
+2022-12-09 22:46:38,464 ERROR app Thread-5 (process_request_thread) : Exception on /api/v1/add_person [POST]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 72, in add_person
+    session.commit()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 827, in commit
+    self._assert_active(prepared_ok=True)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 601, in _assert_active
+    raise sa_exc.PendingRollbackError(
+sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "ix_phone_phone"
+DETAIL:  Ключ "(phone)=(+90**********)" уже существует.
+
+[SQL: INSERT INTO phone (phone) VALUES (%(phone)s) RETURNING phone.id]
+[parameters: {'phone': '+90**********'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+2022-12-09 22:46:38,465 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:46:38] "[35m[1mPOST /api/v1/add_person HTTP/1.1[0m" 500 -
+2022-12-09 22:47:33,567 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 22:47:33,567 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 22:47:39,540 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/add_person [POST]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 74, in add_person
+    new_person.phones = [new_phone]
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 460, in __set__
+    self.impl.set(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 1588, in set
+    old = self.get(state, dict_, passive=PASSIVE_ONLY_PERSISTENT)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 942, in get
+    value = self._fire_loader_callables(state, key, passive)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 978, in _fire_loader_callables
+    return self.callable_(state, passive)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\strategies.py", line 863, in _load_for_state
+    raise orm_exc.DetachedInstanceError(
+sqlalchemy.orm.exc.DetachedInstanceError: Parent instance <Person at 0x25847113b80> is not bound to a Session; lazy load operation of attribute 'phones' cannot proceed (Background on this error at: https://sqlalche.me/e/14/bhk3)
+2022-12-09 22:47:39,545 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:47:39] "[35m[1mPOST /api/v1/add_person HTTP/1.1[0m" 500 -
+2022-12-09 22:48:49,908 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 22:48:49,909 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 22:48:53,455 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/add_person [POST]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: ОШИБКА:  отношение "people" не существует
+LINE 1: INSERT INTO people (last_name, first_name, position_id) VALU...
+                    ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 72, in add_person
+    session.commit()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 829, in commit
+    self._prepare_impl()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 3444, in flush
+    self._flush(objects)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 3583, in _flush
+    with util.safe_reraise():
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\util\compat.py", line 210, in raise_
+    raise exception
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 3544, in _flush
+    flush_context.execute()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 1238, in _emit_insert_statements
+    result = connection._execute_20(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\util\compat.py", line 210, in raise_
+    raise exception
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) ОШИБКА:  отношение "people" не существует
+LINE 1: INSERT INTO people (last_name, first_name, position_id) VALU...
+                    ^
+
+[SQL: INSERT INTO people (last_name, first_name, position_id) VALUES (%(last_name)s, %(first_name)s, %(position_id)s) RETURNING people.id]
+[parameters: {'last_name': 'test', 'first_name': 'test', 'position_id': 3}]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2022-12-09 22:48:53,466 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:48:53] "[35m[1mPOST /api/v1/add_person HTTP/1.1[0m" 500 -
+2022-12-09 22:51:18,387 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 22:51:18,387 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 22:51:22,579 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/add_person [POST]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 74, in add_person
+    new_person.phones = [new_phone]
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 460, in __set__
+    self.impl.set(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 1588, in set
+    old = self.get(state, dict_, passive=PASSIVE_ONLY_PERSISTENT)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 942, in get
+    value = self._fire_loader_callables(state, key, passive)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\attributes.py", line 978, in _fire_loader_callables
+    return self.callable_(state, passive)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\strategies.py", line 863, in _load_for_state
+    raise orm_exc.DetachedInstanceError(
+sqlalchemy.orm.exc.DetachedInstanceError: Parent instance <Person at 0x23903913b80> is not bound to a Session; lazy load operation of attribute 'phones' cannot proceed (Background on this error at: https://sqlalche.me/e/14/bhk3)
+2022-12-09 22:51:22,583 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:51:22] "[35m[1mPOST /api/v1/add_person HTTP/1.1[0m" 500 -
+2022-12-09 22:52:23,350 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 22:52:23,350 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 22:52:26,273 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/add_person [POST]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UniqueViolation: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "ix_phone_phone"
+DETAIL:  Ключ "(phone)=(+90***78*****)" уже существует.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 72, in add_person
+    session.commit()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1451, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 829, in commit
+    self._prepare_impl()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 808, in _prepare_impl
+    self.session.flush()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 3444, in flush
+    self._flush(objects)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 3583, in _flush
+    with util.safe_reraise():
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\util\langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\util\compat.py", line 210, in raise_
+    raise exception
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 3544, in _flush
+    flush_context.execute()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\persistence.py", line 1238, in _emit_insert_statements
+    result = connection._execute_20(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\util\compat.py", line 210, in raise_
+    raise exception
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "ix_phone_phone"
+DETAIL:  Ключ "(phone)=(+90***78*****)" уже существует.
+
+[SQL: INSERT INTO phone (phone) VALUES (%(phone)s) RETURNING phone.id]
+[parameters: {'phone': '+90***78*****'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-12-09 22:52:26,280 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:52:26] "[35m[1mPOST /api/v1/add_person HTTP/1.1[0m" 500 -
+2022-12-09 22:54:15,499 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 22:54:15,499 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 22:54:18,084 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:54:18] "POST /api/v1/add_person HTTP/1.1" 200 -
+2022-12-09 22:56:58,102 WARNING app Thread-2 (process_request_thread) : Exeption type object 'Phone' has no attribute 'person_id' ocured
+2022-12-09 22:56:58,102 ERROR app Thread-2 (process_request_thread) : Exception on /api/v1/get_all_people_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2162, in make_response
+    raise TypeError(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2158, in make_response
+    rv = self.response_class.force_type(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\werkzeug\wrappers\response.py", line 268, in force_type
+    response = Response(*run_wsgi_app(response, environ))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\werkzeug\test.py", line 1260, in run_wsgi_app
+    for item in app_iter:
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\werkzeug\wsgi.py", line 500, in __next__
+    return self._next()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\werkzeug\wrappers\response.py", line 50, in _iter_encoded
+    for item in iterable:
+TypeError: 'AttributeError' object is not iterable
+The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a HTTPException.
+2022-12-09 22:56:58,127 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:56:58] "[35m[1mGET /api/v1/get_all_people_data HTTP/1.1[0m" 500 -
+2022-12-09 22:57:25,479 WARNING app Thread-3 (process_request_thread) : Exeption type object 'Phone' has no attribute 'person_id' ocured
+2022-12-09 22:57:25,480 ERROR app Thread-3 (process_request_thread) : Exception on /api/v1/get_all_people_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2162, in make_response
+    raise TypeError(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2158, in make_response
+    rv = self.response_class.force_type(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\werkzeug\wrappers\response.py", line 268, in force_type
+    response = Response(*run_wsgi_app(response, environ))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\werkzeug\test.py", line 1260, in run_wsgi_app
+    for item in app_iter:
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\werkzeug\wsgi.py", line 500, in __next__
+    return self._next()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\werkzeug\wrappers\response.py", line 50, in _iter_encoded
+    for item in iterable:
+TypeError: 'AttributeError' object is not iterable
+The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a HTTPException.
+2022-12-09 22:57:25,481 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:57:25] "[35m[1mGET /api/v1/get_all_people_data HTTP/1.1[0m" 500 -
+2022-12-09 22:58:18,589 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 22:58:18,590 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 22:58:21,700 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/get_all_people_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 33, in get_all_data
+    phone_num = session.query(Phone).filter(Phone.person_id == person.id).first()
+AttributeError: type object 'Phone' has no attribute 'person_id'
+2022-12-09 22:58:21,703 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 22:58:21] "[35m[1mGET /api/v1/get_all_people_data HTTP/1.1[0m" 500 -
+2022-12-09 23:02:56,977 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:02:56,978 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:02:58,663 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:02:58] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 23:04:53,080 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:04:53,080 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:04:55,641 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:04:55] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 23:05:15,218 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:05:15,218 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:05:17,696 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/get_all_people_data [GET]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 36, in get_all_data
+    print(phone_num.phone)
+AttributeError: 'list' object has no attribute 'phone'
+2022-12-09 23:05:17,698 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:05:17] "[35m[1mGET /api/v1/get_all_people_data HTTP/1.1[0m" 500 -
+2022-12-09 23:05:34,554 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:05:34,554 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:05:35,922 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:05:35] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 23:06:26,018 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:06:26,019 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:06:27,380 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:06:27] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 23:07:09,186 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:07:09,186 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:07:11,112 INFO app Thread-1 (process_request_thread) : All users were selected from database
+2022-12-09 23:07:11,113 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:07:11] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 23:08:13,582 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:08:13,582 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:08:15,346 INFO app Thread-1 (process_request_thread) : All users were selected from database
+2022-12-09 23:08:15,347 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:08:15] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 23:16:26,786 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:16:26,787 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:16:30,657 INFO app Thread-1 (process_request_thread) : All users were selected from database
+2022-12-09 23:16:30,658 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:16:30] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-09 23:19:00,325 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:19:00,326 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:19:14,213 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/delete_person [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 85, in delete_person
+    .delete()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\query.py", line 3210, in delete
+    bulk_del = BulkDelete(self)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\query.py", line 3472, in __init__
+    self._validate_query_state()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\query.py", line 3496, in _validate_query_state
+    raise sa_exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: Can't call Query.update() or Query.delete() when join(), outerjoin(), select_from(), or from_self() has been called
+2022-12-09 23:19:14,225 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:19:14] "[35m[1mDELETE /api/v1/delete_person HTTP/1.1[0m" 500 -
+2022-12-09 23:20:46,693 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:20:46,693 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:20:50,368 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:20:50] "DELETE /api/v1/delete_person HTTP/1.1" 200 -
+2022-12-09 23:22:24,247 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:22:24,247 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:22:28,290 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/delete_person [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: ОШИБКА:  UPDATE или DELETE в таблице "people" нарушает ограничение внешнего ключа "movies_actors_people_id_fkey" таблицы "movies_actors"
+DETAIL:  На ключ (id)=(15) всё ещё есть ссылки в таблице "movies_actors".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 81, in delete_person
+    session.query(Person).filter(Person.id == data["id"]).delete()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\query.py", line 3221, in delete
+    result = self.session.execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1714, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\util\compat.py", line 210, in raise_
+    raise exception
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) ОШИБКА:  UPDATE или DELETE в таблице "people" нарушает ограничение внешнего ключа "movies_actors_people_id_fkey" таблицы "movies_actors"
+DETAIL:  На ключ (id)=(15) всё ещё есть ссылки в таблице "movies_actors".
+
+[SQL: DELETE FROM people WHERE people.id = %(id_1)s]
+[parameters: {'id_1': 15}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-12-09 23:22:28,299 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:22:28] "[35m[1mDELETE /api/v1/delete_person HTTP/1.1[0m" 500 -
+2022-12-09 23:23:03,837 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:23:03,837 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:23:05,771 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/delete_person [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: ОШИБКА:  UPDATE или DELETE в таблице "people" нарушает ограничение внешнего ключа "movies_actors_people_id_fkey" таблицы "movies_actors"
+DETAIL:  На ключ (id)=(15) всё ещё есть ссылки в таблице "movies_actors".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 81, in delete_person
+    session.query(Person).filter(Person.id == data["id"]).delete()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\query.py", line 3221, in delete
+    result = self.session.execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1714, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\util\compat.py", line 210, in raise_
+    raise exception
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) ОШИБКА:  UPDATE или DELETE в таблице "people" нарушает ограничение внешнего ключа "movies_actors_people_id_fkey" таблицы "movies_actors"
+DETAIL:  На ключ (id)=(15) всё ещё есть ссылки в таблице "movies_actors".
+
+[SQL: DELETE FROM people WHERE people.id = %(id_1)s]
+[parameters: {'id_1': 15}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-12-09 23:23:05,779 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:23:05] "[35m[1mDELETE /api/v1/delete_person HTTP/1.1[0m" 500 -
+2022-12-09 23:50:02,617 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:50:02,617 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:50:07,518 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:50:07] "PUT /api/v1/upd_position HTTP/1.1" 200 -
+2022-12-09 23:52:45,462 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:52:45,462 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:52:48,522 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/upd_lastname [PUT]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 128, in upd_lastname
+    .update({Person.position_id: data["firstname_new"]}, synchronize_session = False)
+KeyError: 'firstname_new'
+2022-12-09 23:52:48,524 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:52:48] "[35m[1mPUT /api/v1/upd_lastname HTTP/1.1[0m" 500 -
+2022-12-09 23:53:00,786 ERROR app Thread-2 (process_request_thread) : Exception on /api/v1/upd_lastname [PUT]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 128, in upd_lastname
+    .update({Person.position_id: data["lastname_new"]}, synchronize_session = False)
+KeyError: 'firstname_new'
+2022-12-09 23:53:00,787 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:53:00] "[35m[1mPUT /api/v1/upd_lastname HTTP/1.1[0m" 500 -
+2022-12-09 23:53:03,762 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:53:03,762 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:53:05,410 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/upd_lastname [PUT]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.InvalidTextRepresentation: ОШИБКА:  неверный синтаксис для типа integer: "new_lastname"
+LINE 1: UPDATE people SET position_id='new_lastname' WHERE people.id...
+                                      ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 126, in upd_lastname
+    session.query(Person)\
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\query.py", line 3305, in update
+    result = self.session.execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1714, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\util\compat.py", line 210, in raise_
+    raise exception
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.DataError: (psycopg2.errors.InvalidTextRepresentation) ОШИБКА:  неверный синтаксис для типа integer: "new_lastname"
+LINE 1: UPDATE people SET position_id='new_lastname' WHERE people.id...
+                                      ^
+
+[SQL: UPDATE people SET position_id=%(position_id)s WHERE people.id = %(id_1)s]
+[parameters: {'position_id': 'new_lastname', 'id_1': 6}]
+(Background on this error at: https://sqlalche.me/e/14/9h9h)
+2022-12-09 23:53:05,421 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:53:05] "[35m[1mPUT /api/v1/upd_lastname HTTP/1.1[0m" 500 -
+2022-12-09 23:53:38,664 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-09 23:53:38,664 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-09 23:53:40,136 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:53:40] "PUT /api/v1/upd_lastname HTTP/1.1" 200 -
+2022-12-09 23:56:25,719 ERROR app Thread-2 (process_request_thread) : Exception on /api/v1/delete_person [DELETE]
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.ForeignKeyViolation: ОШИБКА:  UPDATE или DELETE в таблице "people" нарушает ограничение внешнего ключа "movies_actors_people_id_fkey" таблицы "movies_actors"
+DETAIL:  На ключ (id)=(15) всё ещё есть ссылки в таблице "movies_actors".
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 81, in delete_person
+    session.query(Person).filter(Person.id == data["id"]).delete()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\query.py", line 3221, in delete
+    result = self.session.execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\orm\session.py", line 1714, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\sql\elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1572, in _execute_clauseelement
+    ret = self._execute_context(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\util\compat.py", line 210, in raise_
+    raise exception
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\venv\lib\site-packages\sqlalchemy\engine\default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.ForeignKeyViolation) ОШИБКА:  UPDATE или DELETE в таблице "people" нарушает ограничение внешнего ключа "movies_actors_people_id_fkey" таблицы "movies_actors"
+DETAIL:  На ключ (id)=(15) всё ещё есть ссылки в таблице "movies_actors".
+
+[SQL: DELETE FROM people WHERE people.id = %(id_1)s]
+[parameters: {'id_1': 15}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-12-09 23:56:25,726 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [09/Dec/2022 23:56:25] "[35m[1mDELETE /api/v1/delete_person HTTP/1.1[0m" 500 -

@@ -1,0 +1,378 @@
+2022-12-12 20:53:53,821 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-12 20:53:53,821 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-12 20:54:25,253 INFO app Thread-1 (process_request_thread) : All users were selected from database
+2022-12-12 20:54:25,254 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 20:54:25] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 20:54:25,273 INFO app Thread-2 (process_request_thread) : All users were selected from database
+2022-12-12 20:54:25,274 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 20:54:25] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 20:56:29,276 INFO app Thread-3 (process_request_thread) : All users were selected from database
+2022-12-12 20:56:29,276 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 20:56:29] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 20:56:29,300 INFO app Thread-4 (process_request_thread) : All users were selected from database
+2022-12-12 20:56:29,301 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 20:56:29] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 20:57:13,522 INFO app Thread-5 (process_request_thread) : All users were selected from database
+2022-12-12 20:57:13,522 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 20:57:13] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 20:57:13,556 INFO app Thread-6 (process_request_thread) : All users were selected from database
+2022-12-12 20:57:13,557 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 20:57:13] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 20:59:12,011 INFO app Thread-7 (process_request_thread) : All users were selected from database
+2022-12-12 20:59:12,011 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 20:59:12] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 20:59:12,029 INFO app Thread-8 (process_request_thread) : All users were selected from database
+2022-12-12 20:59:12,030 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 20:59:12] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 20:59:15,783 INFO app Thread-9 (process_request_thread) : All users were selected from database
+2022-12-12 20:59:15,783 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 20:59:15] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 20:59:15,808 INFO app Thread-10 (process_request_thread) : All users were selected from database
+2022-12-12 20:59:15,809 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 20:59:15] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:03:23,947 INFO app Thread-11 (process_request_thread) : All users were selected from database
+2022-12-12 21:03:23,947 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:03:23] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:03:24,195 INFO app Thread-12 (process_request_thread) : All users were selected from database
+2022-12-12 21:03:24,196 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:03:24] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:03:40,199 INFO app Thread-15 (process_request_thread) : All users were selected from database
+2022-12-12 21:03:40,200 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:03:40] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:03:40,232 INFO app Thread-16 (process_request_thread) : All users were selected from database
+2022-12-12 21:03:40,233 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:03:40] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:03:43,878 INFO app Thread-17 (process_request_thread) : All users were selected from database
+2022-12-12 21:03:43,879 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:03:43] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:03:43,905 INFO app Thread-18 (process_request_thread) : All users were selected from database
+2022-12-12 21:03:43,905 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:03:43] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:03:53,649 ERROR app Thread-14 (process_request_thread) : Exception on /api/v1/num_visits [GET]
+Traceback (most recent call last):
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 598, in connect
+    sock = self.retry.call_with_retry(
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 599, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 664, in _connect
+    raise err
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 652, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 23, in num_visits
+    count = get_hit_counts()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 12, in get_hit_counts
+    raise exc
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 9, in get_hit_counts
+    return cache.incr('hits')
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\commands\core.py", line 1852, in incrby
+    return self.execute_command("INCRBY", name, amount)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\client.py", line 1255, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 1389, in get_connection
+    connection.connect()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 604, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+2022-12-12 21:03:53,726 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:03:53] "[35m[1mGET /api/v1/num_visits HTTP/1.1[0m" 500 -
+2022-12-12 21:06:07,676 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:06:07] "OPTIONS /api/v1/add_phone_to_user HTTP/1.1" 200 -
+2022-12-12 21:06:07,960 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:06:07] "POST /api/v1/add_phone_to_user HTTP/1.1" 200 -
+2022-12-12 21:06:11,842 INFO app Thread-22 (process_request_thread) : All users were selected from database
+2022-12-12 21:06:11,842 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:06:11] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:06:11,880 INFO app Thread-23 (process_request_thread) : All users were selected from database
+2022-12-12 21:06:11,881 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:06:11] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:06:18,728 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:06:18] "OPTIONS /api/v1/delete_phone HTTP/1.1" 200 -
+2022-12-12 21:06:19,052 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:06:19] "DELETE /api/v1/delete_phone HTTP/1.1" 200 -
+2022-12-12 21:06:38,560 INFO app Thread-26 (process_request_thread) : All users were selected from database
+2022-12-12 21:06:38,560 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:06:38] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:06:38,585 INFO app Thread-27 (process_request_thread) : All users were selected from database
+2022-12-12 21:06:38,585 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:06:38] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:06:51,330 INFO app Thread-25 (process_request_thread) : All users were selected from database
+2022-12-12 21:06:51,331 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:06:51] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:06:51,651 INFO app Thread-28 (process_request_thread) : All users were selected from database
+2022-12-12 21:06:51,652 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:06:51] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:12:35,624 INFO app Thread-30 (process_request_thread) : All users were selected from database
+2022-12-12 21:12:35,626 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:12:35] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:12:35,886 INFO app Thread-31 (process_request_thread) : All users were selected from database
+2022-12-12 21:12:35,887 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:12:35] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:13:33,629 INFO app Thread-32 (process_request_thread) : All users were selected from database
+2022-12-12 21:13:33,630 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:13:33] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:13:36,958 INFO app Thread-33 (process_request_thread) : All users were selected from database
+2022-12-12 21:13:36,959 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:13:36] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:13:40,632 INFO app Thread-34 (process_request_thread) : All users were selected from database
+2022-12-12 21:13:40,632 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:13:40] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:13:41,956 INFO app Thread-35 (process_request_thread) : All users were selected from database
+2022-12-12 21:13:41,956 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:13:41] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:13:56,275 INFO app Thread-37 (process_request_thread) : All users were selected from database
+2022-12-12 21:13:56,275 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:13:56] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:13:56,301 INFO app Thread-38 (process_request_thread) : All users were selected from database
+2022-12-12 21:13:56,301 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:13:56] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:13:57,977 INFO app Thread-36 (process_request_thread) : All users were selected from database
+2022-12-12 21:13:57,978 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:13:57] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:13:58,301 INFO app Thread-39 (process_request_thread) : All users were selected from database
+2022-12-12 21:13:58,302 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:13:58] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:14:29,655 INFO app Thread-41 (process_request_thread) : All users were selected from database
+2022-12-12 21:14:29,656 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:14:29] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:14:29,688 INFO app Thread-42 (process_request_thread) : All users were selected from database
+2022-12-12 21:14:29,689 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:14:29] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:15:00,544 INFO app Thread-43 (process_request_thread) : All users were selected from database
+2022-12-12 21:15:00,545 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:15:00] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:15:00,804 INFO app Thread-44 (process_request_thread) : All users were selected from database
+2022-12-12 21:15:00,806 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:15:00] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 21:15:16,066 INFO app Thread-46 (process_request_thread) : All users were selected from database
+2022-12-12 21:15:16,067 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:15:16] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:15:16,094 INFO app Thread-47 (process_request_thread) : All users were selected from database
+2022-12-12 21:15:16,095 INFO werkzeug Thread-47 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:15:16] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 21:29:00,069 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-12 21:29:00,070 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-12 21:29:26,499 INFO app Thread-1 (process_request_thread) : All users were selected from database
+2022-12-12 21:29:26,500 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 21:29:26] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:34:44,068 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-12 22:34:44,068 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2022-12-12 22:36:00,032 ERROR app Thread-1 (process_request_thread) : Exception on /api/v1/num_visits [GET]
+Traceback (most recent call last):
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 598, in connect
+    sock = self.retry.call_with_retry(
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 599, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 664, in _connect
+    raise err
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 652, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 23, in num_visits
+    count = get_hit_counts()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 13, in get_hit_counts
+    raise exc
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 10, in get_hit_counts
+    return cache.incr('hits')
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\commands\core.py", line 1852, in incrby
+    return self.execute_command("INCRBY", name, amount)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\client.py", line 1255, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 1389, in get_connection
+    connection.connect()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 604, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+2022-12-12 22:36:00,038 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:36:00] "[35m[1mGET /api/v1/num_visits HTTP/1.1[0m" 500 -
+2022-12-12 22:36:14,777 ERROR app Thread-2 (process_request_thread) : Exception on /api/v1/num_visits [GET]
+Traceback (most recent call last):
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 598, in connect
+    sock = self.retry.call_with_retry(
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 599, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 664, in _connect
+    raise err
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 652, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 23, in num_visits
+    count = get_hit_counts()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 13, in get_hit_counts
+    raise exc
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 10, in get_hit_counts
+    return cache.incr('hits')
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\commands\core.py", line 1852, in incrby
+    return self.execute_command("INCRBY", name, amount)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\client.py", line 1255, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 1389, in get_connection
+    connection.connect()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 604, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+2022-12-12 22:36:14,778 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:36:14] "[35m[1mGET /api/v1/num_visits HTTP/1.1[0m" 500 -
+2022-12-12 22:37:41,750 INFO app Thread-3 (process_request_thread) : All users were selected from database
+2022-12-12 22:37:41,751 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:37:41] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:37:41,777 INFO app Thread-4 (process_request_thread) : All users were selected from database
+2022-12-12 22:37:41,777 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:37:41] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:38:21,952 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:38:21] "OPTIONS /api/v1/add_phone_to_user HTTP/1.1" 200 -
+2022-12-12 22:38:22,228 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:38:22] "POST /api/v1/add_phone_to_user HTTP/1.1" 200 -
+2022-12-12 22:38:27,295 INFO app Thread-8 (process_request_thread) : All users were selected from database
+2022-12-12 22:38:27,295 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:38:27] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:38:27,318 INFO app Thread-9 (process_request_thread) : All users were selected from database
+2022-12-12 22:38:27,318 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:38:27] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:41:15,779 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:41:15] "OPTIONS /api/v1/delete_phone HTTP/1.1" 200 -
+2022-12-12 22:41:16,033 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:41:16] "DELETE /api/v1/delete_phone HTTP/1.1" 200 -
+2022-12-12 22:41:19,753 INFO app Thread-13 (process_request_thread) : All users were selected from database
+2022-12-12 22:41:19,754 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:41:19] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:41:19,781 INFO app Thread-14 (process_request_thread) : All users were selected from database
+2022-12-12 22:41:19,781 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:41:19] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:43:33,388 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:43:33] "OPTIONS /api/v1/upd_firstname HTTP/1.1" 200 -
+2022-12-12 22:43:33,656 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:43:33] "PUT /api/v1/upd_firstname HTTP/1.1" 200 -
+2022-12-12 22:43:42,728 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:43:42] "OPTIONS /api/v1/upd_position_for_person HTTP/1.1" 200 -
+2022-12-12 22:43:43,043 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:43:43] "PUT /api/v1/upd_position_for_person HTTP/1.1" 200 -
+2022-12-12 22:43:46,756 INFO app Thread-20 (process_request_thread) : All users were selected from database
+2022-12-12 22:43:46,757 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:43:46] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:43:46,782 INFO app Thread-21 (process_request_thread) : All users were selected from database
+2022-12-12 22:43:46,782 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:43:46] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:47:53,938 INFO app Thread-22 (process_request_thread) : All users were selected from database
+2022-12-12 22:47:53,939 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:47:53] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:47:53,968 INFO app Thread-23 (process_request_thread) : All users were selected from database
+2022-12-12 22:47:53,969 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:47:53] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:47:57,765 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:47:57] "OPTIONS /api/v1/delete_person HTTP/1.1" 200 -
+2022-12-12 22:47:57,769 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:47:57] "DELETE /api/v1/delete_person HTTP/1.1" 200 -
+2022-12-12 22:48:00,632 INFO app Thread-26 (process_request_thread) : All users were selected from database
+2022-12-12 22:48:00,633 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:48:00] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:48:00,656 INFO app Thread-27 (process_request_thread) : All users were selected from database
+2022-12-12 22:48:00,657 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:48:00] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:48:22,241 INFO app Thread-28 (process_request_thread) : All users were selected from database
+2022-12-12 22:48:22,241 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:48:22] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 22:48:22,506 INFO app Thread-29 (process_request_thread) : All users were selected from database
+2022-12-12 22:48:22,506 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:48:22] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 22:48:24,373 INFO app Thread-31 (process_request_thread) : All users were selected from database
+2022-12-12 22:48:24,374 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:48:24] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:48:24,401 INFO app Thread-32 (process_request_thread) : All users were selected from database
+2022-12-12 22:48:24,402 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:48:24] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:54:46,218 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:54:46] "OPTIONS /api/v1/add_person HTTP/1.1" 200 -
+2022-12-12 22:54:46,492 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:54:46] "POST /api/v1/add_person HTTP/1.1" 200 -
+2022-12-12 22:54:52,057 INFO app Thread-36 (process_request_thread) : All users were selected from database
+2022-12-12 22:54:52,058 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:54:52] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:54:52,087 INFO app Thread-37 (process_request_thread) : All users were selected from database
+2022-12-12 22:54:52,087 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:54:52] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 22:55:03,271 INFO app Thread-35 (process_request_thread) : All users were selected from database
+2022-12-12 22:55:03,272 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:55:03] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 22:55:03,575 INFO app Thread-38 (process_request_thread) : All users were selected from database
+2022-12-12 22:55:03,576 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:55:03] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 22:55:57,578 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:55:57] "OPTIONS /api/v1/add_position HTTP/1.1" 200 -
+2022-12-12 22:55:57,926 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:55:57] "POST /api/v1/add_position HTTP/1.1" 200 -
+2022-12-12 22:56:00,304 INFO app Thread-41 (process_request_thread) : All users were selected from database
+2022-12-12 22:56:00,305 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:56:00] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 22:56:00,628 INFO app Thread-42 (process_request_thread) : All users were selected from database
+2022-12-12 22:56:00,628 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:56:00] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 22:58:27,370 INFO app Thread-44 (process_request_thread) : All users were selected from database
+2022-12-12 22:58:27,370 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:58:27] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 22:58:27,631 INFO app Thread-45 (process_request_thread) : All users were selected from database
+2022-12-12 22:58:27,632 INFO werkzeug Thread-45 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:58:27] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 22:58:31,046 INFO werkzeug Thread-47 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:58:31] "OPTIONS /api/v1/delete_position HTTP/1.1" 200 -
+2022-12-12 22:58:31,051 INFO werkzeug Thread-48 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:58:31] "DELETE /api/v1/delete_position HTTP/1.1" 200 -
+2022-12-12 22:58:38,942 INFO app Thread-46 (process_request_thread) : All users were selected from database
+2022-12-12 22:58:38,943 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:58:38] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 22:58:39,264 INFO app Thread-49 (process_request_thread) : All users were selected from database
+2022-12-12 22:58:39,265 INFO werkzeug Thread-49 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 22:58:39] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+2022-12-12 23:14:33,466 ERROR app Thread-51 (process_request_thread) : Exception on /api/v1/num_visits [GET]
+Traceback (most recent call last):
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 598, in connect
+    sock = self.retry.call_with_retry(
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 599, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 664, in _connect
+    raise err
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 652, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 23, in num_visits
+    count = get_hit_counts()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 13, in get_hit_counts
+    raise exc
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 10, in get_hit_counts
+    return cache.incr('hits')
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\commands\core.py", line 1852, in incrby
+    return self.execute_command("INCRBY", name, amount)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\client.py", line 1255, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 1389, in get_connection
+    connection.connect()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 604, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+2022-12-12 23:14:33,467 INFO werkzeug Thread-51 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 23:14:33] "[35m[1mGET /api/v1/num_visits HTTP/1.1[0m" 500 -
+2022-12-12 23:14:48,341 ERROR app Thread-52 (process_request_thread) : Exception on /api/v1/num_visits [GET]
+Traceback (most recent call last):
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 598, in connect
+    sock = self.retry.call_with_retry(
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 599, in <lambda>
+    lambda: self._connect(), lambda error: self.disconnect(error)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 664, in _connect
+    raise err
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 652, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask_cors\extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\app.py", line 23, in num_visits
+    count = get_hit_counts()
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 13, in get_hit_counts
+    raise exc
+  File "C:\Users\ACER\Documents\2022_fall\БД\labs\main_project\server\utils.py", line 10, in get_hit_counts
+    return cache.incr('hits')
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\commands\core.py", line 1852, in incrby
+    return self.execute_command("INCRBY", name, amount)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\client.py", line 1255, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 1389, in get_connection
+    connection.connect()
+  File "C:\Users\ACER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\redis\connection.py", line 604, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+2022-12-12 23:14:48,343 INFO werkzeug Thread-52 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 23:14:48] "[35m[1mGET /api/v1/num_visits HTTP/1.1[0m" 500 -
+2022-12-12 23:22:45,526 INFO app Thread-53 (process_request_thread) : All users were selected from database
+2022-12-12 23:22:45,526 INFO werkzeug Thread-53 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 23:22:45] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+2022-12-12 23:22:45,554 INFO app Thread-54 (process_request_thread) : All users were selected from database
+2022-12-12 23:22:45,554 INFO werkzeug Thread-54 (process_request_thread) : 127.0.0.1 - - [12/Dec/2022 23:22:45] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -

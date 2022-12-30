@@ -1,0 +1,41 @@
+.add-user {
+  border-radius: 8px;
+  /* border: 1px solid rgb(37, 108, 223);  */
+  box-shadow: 0px 0px 5px rgb(37, 108, 223);
+}
+.add-user-data {
+  display: block;
+  width: 20rem;
+  height: 3rem;
+  padding: 0.5rem;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  margin-left: 35%;
+  border-radius: 8px;
+  box-shadow: 5px;
+  border-width: 0 2px 2px 0;
+}
+
+.add-user-form select {
+  display: block;
+  width: 20rem;
+  height: 3rem;
+  padding: 0.5rem;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  margin-left: 35%;
+  margin-top: 2%;
+  border-radius: 8px;
+  box-shadow: 5px;
+  border-width: 0 2px 2px 0;
+}
+
+.btn-add-user {
+  background-color: rgb(199, 218, 235);
+}
+
+.btn-add-user:hover {
+  background-color: rgb(37, 108, 223);
+}
