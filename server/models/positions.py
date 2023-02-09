@@ -1,14 +1,6 @@
-from sqlalchemy import Column, ForeignKey, String, Integer, Table
-from sqlalchemy.orm import sessionmaker, relationship
-from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, String, Integer
+from base import *
 
-# from utils import *
-# username, password, dbname = get_configs()
-# engine = create_engine(f"postgresql://{username}:{password}@localhost:5432/{dbname}")
-# Session = sessionmaker(bind=engine)
-
-Base = declarative_base()
 """Positons"""
 class Positon(Base):
     __tablename__ = "position"

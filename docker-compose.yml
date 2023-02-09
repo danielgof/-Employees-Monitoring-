@@ -7,7 +7,7 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
     ports:
-      - '5434:5432'
+      - '5435:5432'
     volumes: 
       - db:/var/lib/postgresql/data
   cache:
@@ -24,12 +24,12 @@ services:
       dockerfile: Dockerfile
     ports:
       - "5000:5000"
-  client:
-    build:
-     context: ./client
-     dockerfile: Dockerfile
-    ports:
-      - "3000:3000"
+  # client:
+  #   build:
+  #    context: ./client
+  #    dockerfile: Dockerfile
+  #   ports:
+  #     - "3000:3000"
 volumes:
   db:
     driver: local

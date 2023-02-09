@@ -1,8 +1,5 @@
 from sqlalchemy import Column, ForeignKey, String, Integer, Table
-from sqlalchemy.orm import sessionmaker, relationship
-from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
-Base = declarative_base()
+from base import *
 
 """Phones"""
 class Phone(Base):
@@ -12,3 +9,12 @@ class Phone(Base):
 
     def __init__(self, phone):
         self.phone = phone
+
+
+people_phones_association = Table(
+    'people_phones', Base.metadata,
+    Column('people_id', Integer, ForeignKey('people.id', ondelete='CASCADE',
+     onupdate='CASCADE')),
+    Column('phone_id', Integer, ForeignKey('phone.id', ondelete='CASCADE',
+     onupdate='CASCADE'))
+)

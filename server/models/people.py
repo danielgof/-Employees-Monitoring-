@@ -1,16 +1,7 @@
-from sqlalchemy import Column, ForeignKey, String, Integer, Table
-from sqlalchemy.orm import sessionmaker, relationship
-from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
-
-Base = declarative_base()
-people_phones_association = Table(
-    'people_phones', Base.metadata,
-    Column('people_id', Integer, ForeignKey('people.id', ondelete='CASCADE',
-     onupdate='CASCADE')),
-    Column('phone_id', Integer, ForeignKey('phone.id', ondelete='CASCADE',
-     onupdate='CASCADE'))
-)
+from sqlalchemy import Column, ForeignKey, String, Integer
+from sqlalchemy.orm import relationship
+from models.phones import *
+from base import *
 
 """People"""
 class Person(Base):
