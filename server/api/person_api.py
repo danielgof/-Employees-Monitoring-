@@ -3,8 +3,6 @@ from flask_cors import CORS
 from datetime import date
 from datetime import datetime, timedelta
 from flask import current_app
-import os
-import logging
 from create import *
 from models.positions import *
 from models.people import *
@@ -31,7 +29,7 @@ def add_person():
     return jsonify({"result": "succes"})
 
 
-@person_controller.route("/api/v1/delete_person", methods=["DELETE"])
+@person_controller.route("/delete_person", methods=["DELETE"])
 def delete_person():
     data = request.get_json(force=True)
     session.query(Person).filter(Person.id == data["id"]).delete()
@@ -39,7 +37,7 @@ def delete_person():
     return jsonify({"result":"success"})
 
 
-@person_controller.route("/api/v1/upd_firstname", methods=["PUT"])
+@person_controller.route("/upd_firstname", methods=["PUT"])
 def upd_firstname(): 
     data = request.get_json(force=True)
     session.query(Person)\
@@ -49,7 +47,7 @@ def upd_firstname():
     return jsonify({"result":"success"})
 
 
-@person_controller.route("/api/v1/upd_lastname", methods=["PUT"])
+@person_controller.route("/upd_lastname", methods=["PUT"])
 def upd_lastname():
     data = request.get_json(force=True)
     session.query(Person)\

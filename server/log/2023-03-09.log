@@ -1,0 +1,48 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 687-863-887
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:14:18] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+INFO:app:Number of visitors of portal at 2023-03-09 is 56
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:14:24] "GET /api/v1/num_visits HTTP/1.1" 200 -
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:14:28] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+INFO:app:Number of visitors of portal at 2023-03-09 is 57
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:04] "GET /api/v1/num_visits HTTP/1.1" 200 -
+INFO:app:Number of visitors of portal at 2023-03-09 is 58
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:04] "GET /api/v1/num_visits HTTP/1.1" 200 -
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:09] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:09] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:21] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:21] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:28] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:28] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+INFO:app:Number of visitors of portal at 2023-03-09 is 59
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:29] "GET /api/v1/num_visits HTTP/1.1" 200 -
+INFO:app:Number of visitors of portal at 2023-03-09 is 60
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:29] "GET /api/v1/num_visits HTTP/1.1" 200 -
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:34] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:34] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:43] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:43] "GET /api/v1/get_all_people_data HTTP/1.1" 200 -
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:46] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+INFO:app:All users were selected from database
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:46] "GET /api/v1/get_all_positions HTTP/1.1" 200 -
+INFO:app:Number of visitors of portal at 2023-03-09 is 61
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:51] "GET /api/v1/num_visits HTTP/1.1" 200 -
+INFO:app:Number of visitors of portal at 2023-03-09 is 62
+INFO:werkzeug:127.0.0.1 - - [09/Mar/2023 05:15:51] "GET /api/v1/num_visits HTTP/1.1" 200 -

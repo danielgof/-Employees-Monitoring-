@@ -8,18 +8,18 @@ from models.phones import *
 from models.positions import *
 
 
-main_controller = Blueprint("main", __name__)
+main_controller = Blueprint("main", __name__, url_prefix="/api/v1")
 """
 main api
 """
-@main_controller.route("/api/v1/num_visits", methods=["GET"])
+@main_controller.route("/num_visits", methods=["GET"])
 def num_visits():
     count = get_hit_counts()
     current_app.logger.info(f"Number of visitors of portal at {datetime.today().strftime('%Y-%m-%d')} is {count}")
     return jsonify({"visited": count})
 
 
-@main_controller.route("/api/v1/get_all_people_data", methods=["GET"])
+@main_controller.route("/get_all_people_data", methods=["GET"])
 def get_all_data():    
     try:
         data = session.query(Person).all()
@@ -53,7 +53,7 @@ def get_all_data():
         abort(Response(e, 500))
 
 
-@main_controller.route("/api/v1/get_all_positions", methods=["GET"])
+@main_controller.route("/get_all_positions", methods=["GET"])
 def positions_info():
     try:
         data = session.query(Positon).all()

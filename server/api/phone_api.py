@@ -7,7 +7,7 @@ from models.positions import *
 phone_controller = Blueprint("phone", __name__, url_prefix="/api/v1")
 
 
-@phone_controller.route("/api/v1/upd_phone", methods=["PUT"])
+@phone_controller.route("/upd_phone", methods=["PUT"])
 def upd_phone():
     data = request.get_json(force=True)
     phone = session.query(Phone)\
@@ -17,7 +17,7 @@ def upd_phone():
     return jsonify({"result":"success"})
 
 
-@phone_controller.route("/api/v1/delete_phone", methods=["DELETE"])
+@phone_controller.route("/delete_phone", methods=["DELETE"])
 def delete_phone():
     data = request.get_json(force=True)
     session.query(Phone).filter(Phone.phone == data["phone"]).delete()
@@ -25,7 +25,7 @@ def delete_phone():
     return jsonify({"result":"success"})
 
 
-@phone_controller.route("/api/v1/add_phone_to_user", methods=["POST"])
+@phone_controller.route("/add_phone_to_user", methods=["POST"])
 def add_phone_to_user():
     data = request.get_json(force=True)
     new_phones = []
