@@ -10,6 +10,7 @@ import UpdPhonenum from '../UpdUser/UpdPhonenum/UpdPhonenum';
 import UpdUserPosition from '../UpdUser/UpdUserPosition/UpdUserPosition';
 import AddPhoneToUser from '../AddPhoneToUser/AddPhoneToUser';
 import DeletePhone from '../DeletePhone/DeletePhone';
+import serverURL from '../../libs/serverApi';
 
 
 const PersonCard = (props: any) => {
@@ -23,26 +24,26 @@ const PersonCard = (props: any) => {
   const handleClick = async (e: any) => {
     e.preventDefault();
     try {
-    const body = JSON.stringify({
-      id: props.id
-    })
+      const body = JSON.stringify({
+        id: props.id
+      })
 
-    const requestHeaders: HeadersInit = new Headers();
-    requestHeaders.set('Content-Type', 'application/json');
-    console.log(JSON.stringify({
-      id: props.id
-    }))
-    let res = await fetch("http://127.0.0.1:5000/api/v1/delete_person", {
-      method: "DELETE",
-      mode: "cors",
-      headers: requestHeaders,
-      body: body
-    });
+      const requestHeaders: HeadersInit = new Headers();
+      requestHeaders.set('Content-Type', 'application/json');
+      console.log(JSON.stringify({
+        id: props.id
+      }))
+      let res = await fetch(serverURL + "/api/v1/delete_person", {
+        method: "DELETE",
+        mode: "cors",
+        headers: requestHeaders,
+        body: body
+      });
       // let resJson = await res.json();
       if (res.status === 200) {
         setMessage(`Пользователь ${props.name} был удалён из базы данных`);
         // navigate("/home");
-      } 
+      }
       else {
         setMessage("Произошла ошибка при удалении пользователя");
       }
@@ -55,12 +56,12 @@ const PersonCard = (props: any) => {
       <Card.Body>
         <Card.Title>
           <CloseButton className='delete-person'
-          onClick={handleClick} />
+            onClick={handleClick} />
         </Card.Title>
         <Card.Text className='text-card'>
           <div className='person-card-img-container'>
             <div className='person-card-img'>
-              <img src="https://eu.ui-avatars.com/api/?name=John+Doe&size=150" alt="avatar"/>
+              <img src="https://eu.ui-avatars.com/api/?name=John+Doe&size=150" alt="avatar" />
             </div>
             <div className='person-card-maindata'>
               Должность: {props.position}
@@ -71,88 +72,87 @@ const PersonCard = (props: any) => {
             </div>
           </div>
         </Card.Text>
-          <Button className='btn-dop-info'
-            onClick={toggleShowA}>
-            Дополнительная информация
-          </Button>
-          <Button className='btn-dop-info'
-            onClick={toggleShowB}>
-            Изменить информацию пользователю
-          </Button>
-          <Button className='btn-dop-info'
-            onClick={toggleShowC}>
-            Добавить телефон пользователю
-          </Button>
-          <Toast className='person-show-dop-info' show={showA} onClose={toggleShowA}>
-            <Toast.Header>
-              <img
-                src="holder.js/20x20?text=%20"
-                className="rounded me-2"
-                alt=""
-              />
-              <strong className="me-auto">Доп.инфа</strong>
-            </Toast.Header>
-            <Toast.Body>
-              Зарплата: {props.salary}
-              <br />
-              Отдел: {props.department}
-              <br />
-              Номера телефона: 
-              {props.phone.map((phone: any, i: any) => (
-                <div className='person-card-phone' key={i}>
-                  <table className='telephones-data'>
+        <Button className='btn-dop-info'
+          onClick={toggleShowA}>
+          Дополнительная информация
+        </Button>
+        <Button className='btn-dop-info'
+          onClick={toggleShowB}>
+          Изменить информацию пользователю
+        </Button>
+        <Button className='btn-dop-info'
+          onClick={toggleShowC}>
+          Добавить телефон пользователю
+        </Button>
+        <Toast className='person-show-dop-info' show={showA} onClose={toggleShowA}>
+          <Toast.Header>
+            <img
+              src="holder.js/20x20?text=%20"
+              className="rounded me-2"
+              alt=""
+            />
+            <strong className="me-auto">Доп.инфа</strong>
+          </Toast.Header>
+          <Toast.Body>
+            Зарплата: {props.salary}
+            <br />
+            Отдел: {props.department}
+            <br />
+            Номера телефона:
+            {props.phone.map((phone: any, i: any) => (
+              <div className='person-card-phone' key={i}>
+                <table className='telephones-data'>
                   <thead>
                     <tr>
-                    <th>Телефон</th>
-                    <th>Ввод нового телефона</th>
-                    <th>Удаление</th>
+                      <th>Телефон</th>
+                      <th>Ввод нового телефона</th>
+                      <th>Удаление</th>
                     </tr>
                   </thead>
-                    <tr>
-                      <td>
-                        +7{phone} 
-                      </td>
-                      <td>
-                        <UpdPhonenum phone={phone}/>
-                      </td>
-                      <td>
-                        <DeletePhone className='person-card-phone-del-btn' phone={phone}/>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-              ))}
-            </Toast.Body>
-          </Toast>
-          <Toast className='person-change-info' show={showB} onClose={toggleShowB}>
-            <Toast.Header>
-              <img
-                src="holder.js/20x20?text=%20"
-                className="rounded me-2"
-                alt=""
-              />
-              <strong className="me-auto">изменение информации пользователя</strong>
-            </Toast.Header>
-            <Toast.Body>
-              <UpdFirstname id={props.id}/>
-              <UpdLastname id={props.id}/>
-              {/* <UpdPhonenum id={props.id}/> */}
-              <UpdUserPosition id={props.id}/>
-            </Toast.Body>
-          </Toast>
-          <Toast className='phone-to-user' show={showC} onClose={toggleShowC}>
-            <Toast.Header>
-              <img
-                src="holder.js/20x20?text=%20"
-                className="rounded me-2"
-                alt=""
-              />
-              <strong className="me-auto">Добавить телефон пользователю</strong>
-            </Toast.Header>
-            <Toast.Body>
-              <AddPhoneToUser id={props.id}/>
-            </Toast.Body>
-          </Toast>
+                  <tr>
+                    <td>
+                      +7{phone}
+                    </td>
+                    <td>
+                      <UpdPhonenum phone={phone} />
+                    </td>
+                    <td>
+                      <DeletePhone className='person-card-phone-del-btn' phone={phone} />
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            ))}
+          </Toast.Body>
+        </Toast>
+        <Toast className='person-change-info' show={showB} onClose={toggleShowB}>
+          <Toast.Header>
+            <img
+              src="holder.js/20x20?text=%20"
+              className="rounded me-2"
+              alt=""
+            />
+            <strong className="me-auto">изменение информации пользователя</strong>
+          </Toast.Header>
+          <Toast.Body>
+            <UpdFirstname id={props.id} />
+            <UpdLastname id={props.id} />
+            <UpdUserPosition id={props.id} />
+          </Toast.Body>
+        </Toast>
+        <Toast className='phone-to-user' show={showC} onClose={toggleShowC}>
+          <Toast.Header>
+            <img
+              src="holder.js/20x20?text=%20"
+              className="rounded me-2"
+              alt=""
+            />
+            <strong className="me-auto">Добавить телефон пользователю</strong>
+          </Toast.Header>
+          <Toast.Body>
+            <AddPhoneToUser id={props.id} />
+          </Toast.Body>
+        </Toast>
       </Card.Body>
       <div className="message">{message ? <p>{message}</p> : null}</div>
     </Card>

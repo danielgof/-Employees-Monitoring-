@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './AddDepartment.css';
+import serverURL from "../../libs/serverApi";
 
 const AddDepartment = () => {
   const [position, setPosition] = useState("");
@@ -10,20 +11,20 @@ const AddDepartment = () => {
   let handleSubmit = async (e: any) => {
     e.preventDefault();
     try {
-    const body = JSON.stringify({
-      position: position,
-      departament: departament,
-      salary: salary
-    })
+      const body = JSON.stringify({
+        position: position,
+        departament: departament,
+        salary: salary
+      })
 
-    const requestHeaders: HeadersInit = new Headers();
-    requestHeaders.set('Content-Type', 'application/json');
+      const requestHeaders: HeadersInit = new Headers();
+      requestHeaders.set('Content-Type', 'application/json');
       console.log(JSON.stringify({
         position: position,
         departament: departament,
         salary: salary
       }))
-      let res = await fetch("http://localhost:5000/api/v1/add_position", {
+      let res = await fetch(serverURL + "/api/v1/add_position", {
         method: "POST",
         mode: "cors",
         headers: requestHeaders,
@@ -36,7 +37,7 @@ const AddDepartment = () => {
         setSalary("");
         setMessage("User added to database successfully");
         // navigate("/home");
-      } 
+      }
       else {
         setMessage("Возникла ошибка при добавлении пользователя");
       }
@@ -52,21 +53,21 @@ const AddDepartment = () => {
           type="text"
           value={position}
           placeholder="должность"
-          pattern = "[0-9]{30}"
+          pattern="[0-9]{30}"
           onChange={(e) => setPosition(e.target.value)}
         />
         <input
           type="text"
           value={departament}
           placeholder="отдел"
-          pattern = "[0-9]{30}"
+          pattern="[0-9]{30}"
           onChange={(e) => setDepartment(e.target.value)}
         />
         <input
           type="text"
           value={salary}
           placeholder="зарплата"
-          pattern = "[0-9]{30}"
+          pattern="[0-9]{30}"
           onChange={(e) => setSalary(e.target.value)}
         />
 

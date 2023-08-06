@@ -1,26 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import serverURL from '../../libs/serverApi';
 
 const NumVisitors = () => {
   const [data, getData] = useState<any[]>([])
-  const URL = 'http://127.0.0.1:5000/api/v1/num_visits';
+  const URL = serverURL + '/api/v1/num_visits';
 
   useEffect(() => {
     fetchData()
   }, [])
-  
+
   const fetchData = () => {
     fetch(URL)
       .then((res) =>
-          res.json())
+        res.json())
       .then((response) => {
-          // console.log(response.result);
-          getData(response);
+        getData(response);
       })
   }
-
+  // @ts-ignore
+  var visits = data["visited"]
   return (
     <div>
-      Портал был посещён {data['visited']} раз 
+      Портал был посещён {visits} раз
     </div>
   )
 }
