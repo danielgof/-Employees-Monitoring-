@@ -1,7 +1,3 @@
-Sure! Here's a README file for the "Employees Monitoring" application:
-
----
-
 # Employees Monitoring
 
 Employees Monitoring is a full-stack application designed to monitor and manage employee activities and performance. This application leverages React and TypeScript for the client-side and Flask with PostgreSQL and Redis for the backend. The entire application is containerized using Docker and Docker Compose.
@@ -83,7 +79,7 @@ The application is designed using a microservices architecture. The backend cons
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/danielgof/employees-monitoring.git
+    git clone https://github.com/danielgof/Employees-Monitoring.git
     cd employees-monitoring/backend
     ```
 
@@ -111,7 +107,7 @@ The application is designed using a microservices architecture. The backend cons
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/danielgof/employees-monitoring.git
+    git clone https://github.com/danielgof/Employees-Monitoring.git
     cd employees-monitoring/frontend
     ```
 
